@@ -33,7 +33,7 @@ class Base {
         double r = Math.random();
         if (r < 0.1) {
             fail("Oops");
-        } else if (r < 0.33) {
+        } else if (r < 0.3) {
             throw new AssumptionViolatedException("skipping");
         }
     }
